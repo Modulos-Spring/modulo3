@@ -2,7 +2,6 @@ FROM eclipse-temurin:18-jdk AS build
 WORKDIR /app
 COPY . .
 
-
 RUN ./mvnw clean package -DskipTests
 
 FROM eclipse-temurin:18-jre
