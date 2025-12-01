@@ -70,5 +70,3 @@ faz:
 
 Relatório do módulo disponível aqui:
 👉 https://sonarcloud.io/organizations/modulos-spring/projects
-Relatório do módulo disponível aqui:
-👉 https://sonarcloud.io/organizations/modulos-spring/projects
