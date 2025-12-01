@@ -5,7 +5,7 @@ Além disso, o projeto gera uma **imagem Docker** da aplicação e possui um pip
 
 ---
 
-# 🚀 **Funcionalidades**
+## 🚀 **Funcionalidades**
 
 ### **✔️ Consumo de mensagens Kafka**
 
@@ -17,7 +17,7 @@ Cada mensagem recebida é exibida no console no formato:
 
 ---
 
-# 🛠️ **Tecnologias Utilizadas**
+## 🛠️ **Tecnologias Utilizadas**
 
 - **Java 17**
 - **Spring Boot**
@@ -28,7 +28,7 @@ Cada mensagem recebida é exibida no console no formato:
 - **SonarCloud**
 - **Apache Kafka**
 
-# 📦 **Docker**
+## 📦 **Docker**
 
 ### ➤ **Construir a imagem**
 
@@ -42,7 +42,7 @@ A aplicação iniciará e aguardará mensagens no tópico Kafka configurado.
 
 ---
 
-# 🐳 **Publicação no DockerHub via GitHub Actions**
+## 🐳 **Publicação no DockerHub via GitHub Actions**
 
 A pipeline localizada em:
 
@@ -53,7 +53,7 @@ Executa automaticamente:
 2. Build da imagem
 3. Push para o DockerHub (`latest`)
 
-# 🔍 **Pipeline de Qualidade – SonarCloud**
+## 🔍 **Pipeline de Qualidade – SonarCloud**
 
 O arquivo:
 `.github/workflows/build.yml`
